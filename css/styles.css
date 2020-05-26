@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Lobster', cursive;
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+}
+
+h1 {
+  color: #69a7ff;
+  width: 55%;
+  position: absolute;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 6rem;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:5px;
+  font-weight: lighter;
+
+}
+
+h2 {
+  color: #69a7ff;
+  font-size: 2rem;
+  font-family: 'Patrick Hand', cursive;
+  font-weight: 500;
+  padding-top: 50px;
+  margin: 0;
+}
+
+h3 {
+  color:#11999E;
+  font-family: 'Patrick Hand', cursive;
+}
+a{
+  display: inline-block;
+  color: #11999E;
+  padding:50px 25px 0 25px;
+}
+.p1 {
+  font-weight: normal;
+  font-family: 'Lobster', cursive;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 235px;
+  font-size: 2.5rem;
+  color: #eaf6f6;
+}
+
+.sp1 {
+  text-decoration: underline;
+}
+
+/* edf4f2 parent container relative olduğunda içindeki elemanlar absolute positioning
+ile parent içinde şekillenir, static kalırsa bodye göre şekillenir ve parente
+göre göreceli yer almaz, margin değil position için geçerlidir */
+.topBox {
+  line-height: 2;
+  position: relative;
+  background-color: #eaf6f6;
+  padding-top: 5px;
+}
+
+.pc {
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+.profile {
+  padding-bottom: 50px;
+  margin: 0;
+  background-color: white;
+}
+
+.avatar {
+  margin-top: 50px;
+}
+
+.skills {
+  background-color: white;
+}
+
+.hrr {
+  color: gray;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+}
+
+.html {
+  margin-top: 50px;
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+.css{
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+}
+.btn {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  background-color:#66bfbf;
+  border: none;
+  border-radius: 15px;
+  color: #eaf6f6;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px
+}
+
+.skill-row1{
+  line-height: 2;
+  text-align: left;
+  width: 50%;
+  margin: 100px auto;
+}
+.skill-row2{
+  line-height: 2;
+  text-align: left;
+  margin: 100px auto;
+  width: 50%;
+}
+.contact-me{
+  line-height: 2;
+  margin:0;
+  padding: 0;
+}
+.hh2{
+  padding-top:0;
+}
+.enalt{
+  height: 150px;
+  background-color: #66bfbf;
+}
+.enaltyazi{
+  color: #EAF6f6;
+  font-family:serif;
+  font-weight: 100;
+  font-size: 100%;
+  letter-spacing: normal;
+  padding-top: 15px;
+}
